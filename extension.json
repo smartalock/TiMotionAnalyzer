@@ -1,0 +1,17 @@
+{
+  "name": "TiMotion Desk Controller",
+  "apiVersion": "1.0.0",
+  "author": "Agile Workspace Ltd",
+  "version": "1.0.0",
+  "description": "TiMotion Desk Controller",
+  "extensions": {
+    "TiMotion Controller": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.TiMotionController"
+    },
+    "TiMotion Handset": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.TiMotionHandset"
+    }
+  }
+}
